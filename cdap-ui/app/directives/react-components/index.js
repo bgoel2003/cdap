@@ -71,4 +71,7 @@ angular.module(PKG.name + '.commons')
   })
   .directive('codeEditor', function(reactDirective) {
     return reactDirective(window.CaskCommon.CodeEditor);
+  })
+  .directive('textBox', function(reactDirective) {
+    return reactDirective(window.CaskCommon.TextBox);
   });
